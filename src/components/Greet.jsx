@@ -4,7 +4,7 @@ export default function Greet() {
   return (
     <>
       <h2>
-        Hi i am <span className={styles.name}>Aman Dangol</span>
+        Hi, I am <span className={styles.name}>Aman Dangol</span>
       </h2>
       <h3 className={styles.position}>
         WEB DEVELOPER
