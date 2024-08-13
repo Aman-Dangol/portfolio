@@ -6,6 +6,7 @@ function App() {
     <div className={styles.container}>
       <Navbar />
       <Greet></Greet>
+
     </div>
   );
 }

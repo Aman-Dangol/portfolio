@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap");
+:root {
+  --bg-color: #0d1321;
+  --primary-color: #f15025;
+  --highlight-color: #ffeaec;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--highlight-color);
+}
+
+body{
+  background-color:#000;
+}
