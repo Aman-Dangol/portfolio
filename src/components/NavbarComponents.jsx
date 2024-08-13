@@ -5,7 +5,7 @@ export default function NavbarComponents() {
       <li>Home</li>
       <li>About</li>
       <li>Services</li>
-      <li>Peojects</li>
+      <li>Projects</li>
     </div>
   );
 }
