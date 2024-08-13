@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container > h1 {
+  padding: 12px;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.listContainer > li {
+  list-style-type: none;
+  padding: 12px;
+}
