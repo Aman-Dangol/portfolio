@@ -1,7 +1,6 @@
 .listContainer {
   display: flex;
   justify-content: flex-end;
-  flex: 1;
 }
 
 .listContainer > li {
