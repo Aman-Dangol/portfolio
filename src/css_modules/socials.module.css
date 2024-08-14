@@ -3,3 +3,7 @@
   cursor: pointer;
   position: relative;
 }
+
+.container > p {
+  margin-bottom: 1rem;
+}

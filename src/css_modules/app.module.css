@@ -4,8 +4,8 @@
   width: 70vw;
   margin: 0 auto;
   font-size: 20px;
-  margin-top: 2rem;
+  margin-top: 8rem;
   background-color: var(--bg-color);
   padding: 24px;
-  height: calc(100vh - 4rem);
+  height: calc(80vh - 8rem);
 }

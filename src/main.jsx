@@ -9,8 +9,12 @@ const router = createBrowserRouter([
     element: <App></App>,
   },
   {
-    path: "/home",
-    element: <h1>hpme page</h1>,
+    path: "/services",
+    element: <h1>services page</h1>,
+  },
+  {
+    path: "/projects",
+    element: <h1>projects </h1>,
   },
 ]);
 
