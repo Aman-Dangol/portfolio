@@ -1,11 +1,13 @@
 @import url("./global.css");
 
 .container {
+  position: relative;
+  top: 50vh;
+  transform: translateY(-50%);
   width: 70vw;
   margin: 0 auto;
   font-size: 20px;
-  margin-top: 8rem;
   background-color: var(--bg-color);
   padding: 24px;
-  height: calc(80vh - 8rem);
+  min-height: calc(60vh);
 }
