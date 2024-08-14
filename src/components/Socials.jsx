@@ -5,12 +5,17 @@ export default function Socials() {
     <div className={styles.container}>
       <p>Find Me on:</p>
       <div className={styles.socials}>
-        <i className="fa-brands fa-linkedin fa-xl" target="_blank">
-          <a href="https://www.linkedin.com/in/aman-dangol-b260ba259/"></a>
-        </i>
-        <i class="fa-brands fa-square-github fa-xl">
-          <a href="https://github.com/Aman-Dangol"></a>
-        </i>
+        <a
+          href="https://www.linkedin.com/in/aman-dangol-b260ba259/"
+          target="_blank"
+        >
+          {" "}
+          <i className="fa-brands fa-linkedin fa-2xl" target="_blank"></i>
+        </a>
+
+        <a href="https://github.com/Aman-Dangol" target="_blank">
+          <i class="fa-brands fa-square-github fa-2xl"></i>
+        </a>
       </div>
     </div>
   );

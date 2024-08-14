@@ -1,3 +1,5 @@
-.socials > i {
+.socials > a {
   padding: 4px;
+  cursor: pointer;
+  position: relative;
 }
