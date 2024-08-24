@@ -14,9 +14,8 @@ export default function Socials() {
         </a>
 
         <a href="https://github.com/Aman-Dangol" target="_blank">
-          <i class="fa-brands fa-square-github fa-2xl"></i>
+          <i className="fa-brands fa-square-github fa-2xl"></i>
         </a>
-        
       </div>
     </div>
   );

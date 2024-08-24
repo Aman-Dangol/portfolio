@@ -8,7 +8,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
-    loader: ()=>"home"
+    loader: () => "home",
   },
   {
     path: "/services",
@@ -17,13 +17,13 @@ const router = createBrowserRouter([
   },
   {
     path: "/projects",
-    element: <h1>projects </h1>,
-    loader:()=>"projects"
+    element: <App></App>,
+    loader: () => "projects",
   },
 ]);
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
+  // <StrictMode>
     <RouterProvider router={router}></RouterProvider>
-  </StrictMode>
+  // </StrictMode>
 );
