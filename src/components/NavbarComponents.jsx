@@ -1,16 +1,27 @@
 import styles from "../css_modules/navbarcomponent.module.css";
-export default function NavbarComponents() {
+import { Link } from "react-router-dom";
+export default function NavbarComponents({ highlight }) {
   return (
     <div className={styles.listContainer}>
-      <li>
-        <a href="/">Home</a>
+      <li className={highlight == "home" ? styles.highlight : ""}>
+        <Link
+          to={{
+            pathname: "/",
+          }}
+        >
+          Home
+        </Link>{" "}
       </li>
-      <li>
-        <a href="/services" target="_blank">
+      <li className={highlight == "services" ? styles.highlight : ""}>
+        <Link
+          to={{
+            pathname: "/services",
+          }}
+        >
           Services
-        </a>
+        </Link>
       </li>
-      <li>
+      <li className={highlight == "projects" ? styles.highlight : ""}>
         <a href="/projects">Projects</a>
       </li>
     </div>

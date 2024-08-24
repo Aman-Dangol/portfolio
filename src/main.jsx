@@ -8,14 +8,17 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    loader: ()=>"home"
   },
   {
     path: "/services",
     element: <Services />,
+    loader: () => "services",
   },
   {
     path: "/projects",
     element: <h1>projects </h1>,
+    loader:()=>"projects"
   },
 ]);
 
