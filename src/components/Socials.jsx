@@ -1,5 +1,5 @@
 import styles from "../css_modules/socials.module.css";
-
+import { Link } from "react-router-dom";
 export default function Socials() {
   return (
     <div className={styles.container}>

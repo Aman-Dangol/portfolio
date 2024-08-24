@@ -2,6 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
+import Services from "./components/Services.jsx";
 import "./css_modules/global.css";
 const router = createBrowserRouter([
   {
@@ -10,7 +11,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/services",
-    element: <h1>services page</h1>,
+    element: <Services />,
   },
   {
     path: "/projects",

@@ -6,7 +6,9 @@ export default function NavbarComponents() {
         <a href="/">Home</a>
       </li>
       <li>
-        <a href="/services">Services</a>
+        <a href="/services" target="_blank">
+          Services
+        </a>
       </li>
       <li>
         <a href="/projects">Projects</a>
